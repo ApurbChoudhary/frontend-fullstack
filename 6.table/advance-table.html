@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Table</title>
+  </head>
+  <body>
+    <h2>Advanced HTML Tables</h2>
+    <hr />
+    <table>
+      <!-- Captions -->
+      <caption>
+        Sales Reports
+      </caption>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+      <!-- table data -->
+      <thead>
+        <tr>
+          <th>Region</th>
+          <th>Products</th>
+          <th>Qty Sold</th>
+          <th>Total Sales</th>
+        </tr>
+      </thead>
+      <!-- Table Body -->
+      <tbody>
+        <tr>
+          <td>North</td>
+          <td>Iphone11</td>
+          <td>20</td>
+          <td>&#x20b9;300</td>
+        </tr>
+        <tr>
+          <td>South</td>
+          <td>Iphone12</td>
+          <td>20</td>
+          <td>&#x20b9;300</td>
+        </tr>
+        <tr>
+          <td>East</td>
+          <td>Iphone13</td>
+          <td>20</td>
+          <td>&#x20b9;300</td>
+        </tr>
+        <tr>
+          <td>West</td>
+          <td>Iphone14</td>
+          <td>20</td>
+          <td>&#x20b9;300</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Total Sales: &#x20b9;1200</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
+<style>
+  col {
+    width: 20%;
+  }
+  tr {
+    background-color: aliceblue;
+  }
+  th {
+    padding: 10px;
+    border: solid;
+    text-align: left;
+  }
+  td {
+    padding: 10px;
+    border: solid;
+  }
+</style>

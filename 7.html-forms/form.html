@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Forms</title>
+  </head>
+  <body>
+    <h1>Basic Forms</h1>
+    <hr />
+    <!-- ! Basic Forms -->
+    <form action="">
+      <div>
+        <label> Enter Full Name </label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+      <div>
+        <label> Enter Age </label>
+        <input type="number" name="age" id="age" />
+      </div>
+      <div>
+        <label> Enter Password </label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label> Is required </label>
+        <input type="checkbox" name="isRequired" id="isRequired" />
+      </div>
+      <div>
+        <label> Date </label>
+        <input type="date" name="selectedDate" id="selectedDate" />
+      </div>
+      <div>
+        <label> Color </label>
+        <input type="color" name="selectedColor" id="selectedColor" />
+      </div>
+      <div>
+        <label> Upload File </label>
+        <input type="file" name="uploadFile" id="uploadFile" />
+      </div>
+      <!-- Select type -->
+      <div>
+        <label> Select your programming langauge </label>
+        <select name="programmingLangauge" id="programmingLangauge">
+          <option value="Java">Java</option>
+          <option value="JS">JS</option>
+          <option value="MongoDB">MongoDB</option>
+          <option selected value="NodeJS">Node JS</option>
+        </select>
+      </div>
+      <!-- FieldSet -->
+      <div>
+        <fieldset>
+          <legend>Select the preference</legend>
+          <label> Hindi </label>
+          <input type="radio" name="hindi" id="hindi" />
+          <label> English </label>
+          <input type="radio" name="English" id="english" />
+        </fieldset>
+      </div>
+      <!-- Option Group -->
+      <div>
+        <select name="color" id="color">
+          <optgroup label="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="black">Black</option>
+          </optgroup>
+          <optgroup label="fruit">
+            <option value="orange">Orange</option>
+            <option value="mango">Mango</option>
+            <option value="pineapple">PineApple</option>
+            <option value="guava">Guava</option>
+          </optgroup>
+        </select>
+      </div>
+      <!-- Datalist -->
+      <div>
+        <label> Choose the browsers</label>
+        <input list="browser" />
+        <datalist id="browser">
+          <option value="Chrome"></option>
+          <option value="Edge"></option>
+          <option value="Safari"></option>
+          <option value="Firefox"></option>
+        </datalist>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
